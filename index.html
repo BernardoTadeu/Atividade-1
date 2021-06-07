@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação do funcionário</title>
+    <link rel="stylesheet" type="text/css" href="Avaliação.css">
+</head>
+<body>
+    <center>
+    <h2>Avalie nosso atendimento:</h2>
+    <fieldset><legend><strong> Insira seus dados:</strong></legend>
+        <div>
+<label for="nome">.Nome completo:</label>
+<input type="text" name="nome" id="nome" required>
+</div>
+<br>
+<div>
+<label for="procedimento">.Tipo do procedimento realizado:</label>
+<input type="text" name="procedimento" id="procedimento" required>
+</div>
+<br>
+<div>
+<label for="email">.Email:</label>
+<input type="email" name="email" id="email">
+</div>
+</fieldset>
+<br> <br> <br>
+<fieldset> <legend><strong>Sobre o Atendente:</strong></legend>
+    <div>
+        <label for="quem">.Selecione o funcionário (a), que lhe atendeu:</label>
+        <select>
+            <option selected disabled value=""><strong>Selecione aqui</strong></option>
+            <option>Celina Colinhã</option>
+            <option>Ludmila Minho</option>
+            <option>Kaylane Cardoso</option>
+            <option>Miguel Pereira</option>
+            <option>Túlio Silva</option>
+        </select>
+    </div>
+    <br> <br>
+    <div>
+<label>.Sua nota para o atendimento:</label>
+<div>
+<input type="radio" name="nota" id="nota">Excelente
+</div>
+<div>
+<input type="radio" name="nota" id="nota">Bom
+</div>
+<div>
+<input type="radio" name="nota" id="nota">Aceitável
+</div>
+<div>
+<input type="radio" name="nota" id="nota">Ruim
+</div>
+<div>
+<input type="radio" name="nota" id="nota">Péssimo
+</div>
+    </div>
+    <br> <br>
+    <div>
+        <label>.Suas características positivas:</label>
+        <input type="checkbox" name="positivo" id="positivo"> Simpático (a)
+        <input type="checkbox" name="positivo" id="positivo"> Rápido atendimento
+        <input type="checkbox" name="positivo" id="positivo"> Organizado
+        <input type="checkbox" name="positivo" id="positivo"> Paciente
+        <input type="checkbox" name="positivo" id="positivo"> Linguagem apropriada
+    </div>
+    <br><br>
+    <div>
+        <label>.Suas características negativas:</label>
+        <input type="checkbox" name="negativo" id="negativo"> Arrogante/Indelicado
+        <input type="checkbox" name="negativo" id="negativo"> Fala confusa ou incoerente
+        <input type="checkbox" name="negativo" id="negativo"> Dispersou-se constantemente
+        <input type="checkbox" name="negativo" id="negativo"> Desorganizado
+        <input type="checkbox" name="negativo" id="negativo"> Vestimenta inadequada
+    </div>
+</fieldset>
+<br> <br> <br>
+<fieldset> <legend><strong>Espaço para observações, críticas, dicas, entre outros:</strong></legend>
+    <div> <br>
+<textarea row="10" style="width:35em" name="espaço" id="espaço">Escreva aqui</textarea>
+    </div>
+</fieldset>
+<br>
+<h3>Obrigado pelo feedback !</h3>
+<br> <br>
+<button type="submit" class="submit">Enviar</button>
+<br> <br> <br>
+<cite>Feito por: Bernardo Tadeu Alves Carvalho | 15/04/2021</cite>
+</body>
+</html>
